@@ -1,0 +1,136 @@
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6; 
+    
+        background-image: url('./images/wbhoneycomb.jpg');
+     
+        background-size: cover; /* Scales the image to cover the entire page */
+     
+      
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: coral;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: coral;
+    padding: 40px; 
+    image-rendering: center; 
+  }
+  
+  /* Main Menu */
+  .main-menu {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f4f4f4;
+  }
+  
+  .main-menu a {
+    font-size: 20px;
+  }
+  
+  /* Main Content */
+  .main {
+    display: flex;
+    gap: 70px;
+    padding: 40px;
+  }
+  
+  .main section {
+    flex: 1;
+  }
+  
+  .main aside {
+    width: 300px;
+  }
+  
+  .main aside h3 {
+    padding: 10px;
+    background-color: coral;
+    color: #fff;
+  }
+  
+  .main aside li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Navbar Customization */
+  .navbar {
+    background-color: #f8f9fa  !important; /* Adjusting the default bg-body-tertiary class */
+    padding: 15px !important; 
+  
+  }
+  
+  .navbar-brand {
+    font-size: 24px !important; 
+    color: #333!important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333  !important;
+    font-size: 18px !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: coral !important;
+  }
+  
+  .navbar-toggler {
+    border-color: #333 !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url(./images/wbhoneycomb.jpg); /* You can customize the toggle icon with an SVG */
+  }
+  
+  
+
+  .dropdown-menu {
+    background-color: #f4f4f4;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: #333;
+  }
+  
+  .dropdown-item:hover {
+    background-color: coral;
+    color: #fff;
+  }
+  
+  .btn-outline-success {
+    color: coral;
+    border-color: coral;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: coral;
+    color: #fff;
+  }
+  
