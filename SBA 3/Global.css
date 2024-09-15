@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+}
+.container {
+    width: 400px;
+    margin: 150px auto;
+}
+
+.
+/* intserted the nav styling*/
+
+    ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: darkorange;
+}
+
+a:hover {
+    color: coral;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+margin: { 20px 0;
+    
+}
+
+.header {
+    background-color:coral;
+    padding: 40px;
+}
+
+.main-menu {
+    display: flex;
+    gap: 20px;
+    padding 30px;
+    background-color:#f4f4f4;
+}
+
+.main-menu a {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 70px;
+    padding: 40px;
+}
+
+.main section {
+    flex: 1;
+}
+
+.main aside {
+    width: 300px;
+}
+
+.main aside h3 {
+    padding: 10px;
+    background-color: coral;
+    color: #fff;
+}
+
+.main aside li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ccc
+}
+
+}
+
+.card button:hover {
+    background: linear-gradient(90deg,
+    rgba(232, 132, 62, 1) 21%
+    rgba(229, 111,69, 1)  61%
+    );
+}
